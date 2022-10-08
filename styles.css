@@ -33,3 +33,15 @@ body{
   top: 2.5px;
   left: 6px;
 }
+
+.legs{
+  height: 50px;
+  width: 60px;
+  background-color: #840931;
+  position: absolute;
+  left: -10px;
+  bottom: -50px;
+  border: 10px solid black;
+  border-radius: 0 0 22px 22px;
+  z-index: "";
+}
