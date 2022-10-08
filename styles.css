@@ -45,3 +45,15 @@ body{
   border-radius: 0 0 22px 22px;
   z-index: "";
 }
+
+.legs::before{
+  content: "";
+  height: 45px;
+  width: 60px;
+  background-color: #840931;
+  position: absolute;
+  right: -90px;
+  border: 10px solid black;
+  border-top: none;
+  border-radius: 0 0 22px 22px;
+}
