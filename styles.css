@@ -57,3 +57,26 @@ body{
   border-top: none;
   border-radius: 0 0 22px 22px;
 }
+
+.legs::after{
+  content: "";
+  height: 10px;
+  width: 55px;
+  background-color: black;
+  position: absolute;
+  top: -10px;
+  left: 40px;
+  border-radius:  0 0 10px 0;
+}
+
+.back{
+  height: 120px;
+  width: 35px;
+  background-color: #EA1616;
+  border: 10px solid black;
+  border-right: none;
+  position: absolute;
+  left: -45px;
+  top: 65px;
+  border-radius:20px 0 0 20px ;
+}
