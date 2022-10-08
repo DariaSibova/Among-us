@@ -128,3 +128,40 @@ body{
   transform: rotate(6deg);
 
 }
+.shadow{
+  height: 40px;
+  width: 210px;
+  background-color:rgba(153, 130, 0, 0.2);
+  position: absolute;
+  bottom: -60px;
+  right: -40px;
+  border-radius: 50%;
+  z-index: 0;
+}
+a{
+  color: #282828;
+  font-family: "Poppins",sans-serif;
+  font-weight: 500;
+  position:absolute;
+  right:20px ;
+  top:20px;
+  border:3px solid #282828;
+  border-radius: 5px;
+  text-decoration:none;
+}
+a>.fa{
+  color: #FF0000;
+}
+@media screen and (min-width: 451px) {
+  a{
+    font-size: 18px;
+    padding:8px 12px 8px 12px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  a{
+    font-size: 12px;
+    padding:5px 8px 5px 8px;
+  }
+}
