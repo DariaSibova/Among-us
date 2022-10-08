@@ -6,3 +6,20 @@
 body{
   background-color: #FFDE2A;
 }
+
+.player{
+  background-color: #840931;
+  border: 10px solid #000000;
+  border-bottom: none;
+  border-radius: 60px 80px 0 0;
+  height: 200px;
+  width: 140px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
