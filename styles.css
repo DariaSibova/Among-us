@@ -23,3 +23,13 @@ body{
   z-index: 1;
 }
 
+.player::after{
+  content: "";
+  position: absolute;
+  width: 92%;
+  height: 85%;
+  background-color: #EA1616;
+  border-radius: 58% 70% 28% 42% / 28% 56% 88% 89%;
+  top: 2.5px;
+  left: 6px;
+}
