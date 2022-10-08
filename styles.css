@@ -110,5 +110,21 @@ body{
   position: absolute;
   width: 85%;
   height: 65%;
-  background-color: #71D4EC
+  background-color: #71D4EC;
+  border-radius: 0 28px 3px 30px;
+  right: 0px;
+  top: 0px;
+}
+
+.glass::after{
+  content: "";
+  position: absolute ;
+  width: 45%;
+  height: 22%;
+  background-color: #F7F7F7;
+  left: 39px;
+  top: 5px;
+  border-radius: 25px;
+  transform: rotate(6deg);
+
 }
