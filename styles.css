@@ -104,3 +104,11 @@ body{
   border-radius: 25px 50px 30px 30px;
   z-index: 2;
 }
+
+.glass::before{
+  content: "";
+  position: absolute;
+  width: 85%;
+  height: 65%;
+  background-color: #71D4EC
+}
